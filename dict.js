@@ -19,7 +19,7 @@ Dict.prototype = {
     return value;
   },
 
-  size: function() {
+  len: function() {
     return _.size(this.datastore);
   }
 };
